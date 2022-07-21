@@ -8,4 +8,4 @@ A Docker Swarm is a group of either physical or virtual machines that are runnin
 
 docker swarm init --advertise-addr IP Address
 
-```end
+```
