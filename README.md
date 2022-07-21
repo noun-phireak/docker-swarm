@@ -13,5 +13,10 @@ docker swarm init --advertise-addr IP Address
 ```
 ## Cluster
 
-Docker swarm enable other server to join swarm cluster as a node the initialized swarm will act as a Manager and the joint server will be act as node
+Docker swarm enable other server to join swarm cluster as a node the initialized swarm will act as a Manager and the joint server will be act as node, token will be generated once you initialized the Swarm manager. Simply copy the command when you successfully initialized swarm.
+- The command will look something like this:
+
+```bash
+docker swarm join --token SWMTKN-1-3pu6hszjas19xyp7ghgosyx9k8atbfcr8p2is99znpy26u2lkl-1awxwuwd3z9j1z3puu7rcgdbx 192.168.99.121:2377
+```
 
