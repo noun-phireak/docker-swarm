@@ -11,3 +11,7 @@ A Docker Swarm is a group of either physical or virtual machines that are runnin
 docker swarm init --advertise-addr IP Address
 
 ```
+## Cluster
+
+Docker swarm enable other server to join swarm cluster as a node the initialized swarm will act as a Manager and the joint server will be act as node
+
