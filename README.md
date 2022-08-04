@@ -1,6 +1,6 @@
 ## Docker Swarm
 
-<a href="https://www.bugsnag.com/blog/container-orchestration-with-docker-swarm-mode"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 
 A Docker Swarm is a group of either physical or virtual machines that are running the Docker application and that have been configured to join together in a cluster.
 
